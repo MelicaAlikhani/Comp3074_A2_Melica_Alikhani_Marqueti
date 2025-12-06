@@ -1,50 +1,40 @@
-# Welcome to your Expo app 👋
+Name: Melica Alikhani-Marqueti
+Student ID: 101360798
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+Overview
 
-1. Install dependencies
+This React Native application converts one currency into another using live exchange rates from FreeCurrencyAPI.
+The app includes input validation, user-friendly error messages, and a clean UI built with Expo.
 
-   ```bash
-   npm install
-   ```
+The project was completed as part of COMP3074 – Mobile Application Development, Assignment 2.
 
-2. Start the app
+Features
+Convert from any valid 3-letter currency code (e.g., CAD → USD)
 
-   ```bash
-   npx expo start
-   ```
+Live exchange rates from FreeCurrencyAPI
 
-In the output, you'll find options to open the app in a
+Validation for currency codes and amount
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Error handling for invalid input
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Clean, reusable LabeledInput component
 
-## Get a fresh project
+Tab navigation (Home + Explore) using Expo Router
 
-When you're ready, run:
+About screen with student information
 
-```bash
-npm run reset-project
-```
+How to Run the App
+Install dependencies
+npm install
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Start the Expo development server
+npm start
 
-## Learn more
+Run on device or web
 
-To learn more about developing your project with Expo, look at the following resources:
+Press w → Web
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Press a → Android
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Scan QR code → Expo Go on your phone
